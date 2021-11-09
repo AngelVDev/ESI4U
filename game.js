@@ -3,7 +3,7 @@ const optionButtonsElement = document.getElementById("option-buttons")
 
 let state = {}
 
-let audio = new Audio('https://www.myinstants.com/media/sounds/cringe.mp3');
+let audio = new Audio('');
 decision = new Audio ('https://soundbible.com/mp3/Shake%20And%20Roll%20Dice-SoundBible.com-591494296.mp3');
 
 function startGame(){
@@ -55,7 +55,7 @@ const textNodes = [
             },
             {
                 text:"¿Necesito algo para seguir?",
-                nextText: 2
+                nextText: 5
             }
         ]
     },
@@ -75,19 +75,19 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "",
+        text: "Ya definido éste término, quisiera saber qué es lo que te interesa saber primero.",
         options: [
             {
-                text: "",
-                nextText: 4
+                text: "¿Qué son los 'roles de género'?(unredacted)",
+                nextText: 7
             },
             {
-                text: "",
-                nextText: 5
+                text: "¿Qué me está pasando?(unredacted)",
+                nextText: 8
             },
             {
-                text: "",
-                nextText: 6
+                text: "¿Qué es el 'consentimiento'?",
+                nextText: 9
             }
         ]
     },  
@@ -96,8 +96,8 @@ const textNodes = [
         text: "Consideramos a la sexualidad como una de las dimensiones constitutivas de la persona, relevante para su despliegue y bienestar durante toda la vida",
         options: [
             {
-                text: "",
-                nextText: -1,
+                text: "Entendido, sigamos, por favor.",
+                nextText: 3,
             
             }
         ]
@@ -105,13 +105,13 @@ const textNodes = [
     },
     {
         id: 5,
-        text: "",
+        text: "Sólo atención y ganas de aprender. Recordá seguir sólo hasta donde te sientas cómodx.",
         options: [
             {
-                text: "",
-                nextText: 7
+                text: "Sigamos",
+                nextText: 3
             },{
-                text: "",
+                text: "Ya es suficiente por hoy",
                 nextText: 6
             }
         ]
@@ -119,10 +119,10 @@ const textNodes = [
     },
     {
         id: 6,
-        text: "",
+        text: "¡Espero que vuelvas en otra ocasión! ¡Mucha suerte!",
         options: [
             {
-                text: "",
+                text: "Cierra la ventana o vuelve al inicio desde aquí.",
                 nextText: -1,
                 
             }
@@ -131,11 +131,20 @@ const textNodes = [
     },
     {
         id: 9,
-        text: "",
+        text: "Consentir es poder aceptar libremente sin que se ponga en juego ninguna opresión. Cuando hablamos deconsentimiento debemos tener en cuenta que éste debe ser:",
         options: [
             {
-                text: "",
-                nextText: 3
+                text: "Libre: Elegido voluntariamente sin presión de ningún tipo y estando en un estado físico y mental perfectamente lúcido",
+                
+            },
+            {
+                text: "Afirmativo: Hay consentimiento cuando éste es expresado de forma positiva, explícita y concordante (el lenguaje corporal tiene tanta importancia como el verbal). Caso contrario, siempre se asume un 'no'",
+            },
+            {
+                text: "Específico: Se otorga para una práctica concreta, no es transferible a cualquier otra.",
+            },
+            {
+                text: "Reversible: La persona siempre tiene derecho a retirar su consentimiento de forma parcial o total en cualquier momento y sin sufrir consecuencias derivadas del cambio de opinión, ni tener la necesidad de justificarse. ",
             }
         ]
 
