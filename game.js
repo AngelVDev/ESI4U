@@ -61,23 +61,15 @@ const textNodes = [
     },
     {
         id: 2,
-        text: "",
+        text: "El término ‘sexualidad’ se refiere a una dimensión fundamental del hecho de ser humano. Se expresa en forma de pensamientos, fantasías, deseos, creencias, actitudes, valores, actividades, prácticas, roles y relaciones. La sexualidad es el resultado de la interacción de factores biológicos, psicológicos, socioeconómicos, culturales, éticos y religiosos o espirituales.En resumen, la sexualidad se practica y se expresa en todo lo que somos, sentimos, pensamos y hacemos ",
         options: [
             {
-                text: "",
-                requiredState: (currentState) => currentState.blueGoo,
-                setState: {blueGoo: false, espadilla: true},
-                nextText: 9
-            },
-            {
-                text: "",
-                requiredState: (currentState) => currentState.blueGoo,
-                setState: {blueGoo: false, escudito: true},
-                nextText: 22
-            },
-            {
-                text: "",
+                text: "Sigamos",
                 nextText: 3
+            },
+            {
+                text: "Pensé que tenía que ver con mis genitales o relaciones sexuales ¿No es así?",
+                nextText: 4
             }
         ]
     },
@@ -101,7 +93,7 @@ const textNodes = [
     },  
     {
         id: 4,
-        text: "",
+        text: "Consideramos a la sexualidad como una de las dimensiones constitutivas de la persona, relevante para su despliegue y bienestar durante toda la vida",
         options: [
             {
                 text: "",
