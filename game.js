@@ -131,7 +131,7 @@ const textNodes = [
     },
     {
         id: 9,
-        text: "Consentir es poder aceptar libremente sin que se ponga en juego ninguna opresión. Cuando hablamos deconsentimiento debemos tener en cuenta que éste debe ser:",
+        text: "Consentir es poder aceptar libremente sin que se ponga en juego ninguna opresión. Cuando hablamos de consentimiento debemos tener en cuenta que éste debe ser:",
         options: [
             {
                 text: "Libre: Elegido voluntariamente sin presión de ningún tipo y estando en un estado físico y mental perfectamente lúcido",
