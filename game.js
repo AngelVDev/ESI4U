@@ -135,16 +135,19 @@ const textNodes = [
         options: [
             {
                 text: "Libre: Elegido voluntariamente sin presión de ningún tipo y estando en un estado físico y mental perfectamente lúcido",
-                
+                nextText: 10
             },
             {
                 text: "Afirmativo: Hay consentimiento cuando éste es expresado de forma positiva, explícita y concordante (el lenguaje corporal tiene tanta importancia como el verbal). Caso contrario, siempre se asume un 'no'",
+                nextText: 10    
             },
             {
                 text: "Específico: Se otorga para una práctica concreta, no es transferible a cualquier otra.",
+                nextText: 10
             },
             {
                 text: "Reversible: La persona siempre tiene derecho a retirar su consentimiento de forma parcial o total en cualquier momento y sin sufrir consecuencias derivadas del cambio de opinión, ni tener la necesidad de justificarse. ",
+                nextText: 10
             }
         ]
 
@@ -178,15 +181,15 @@ const textNodes = [
     },
     {
         id: 10,
-        text: "",
+        text: "Ahora que ya sabés qué es el consentimiento ¿Qué te gustaría saber?",
         options: [
             {
-                text: "",
-                nextText: 11
+                text: "¿Qué son los 'roles de género'?(unredacted)",
+                nextText: 7
             },
             {
-                text: "",
-                nextText: 13
+                text: "¿Qué me está pasando?(unredacted)",
+                nextText: 8
             }
         ]
 
