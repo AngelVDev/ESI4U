@@ -110,8 +110,9 @@ const textNodes = [
             {
                 text: "Sigamos",
                 nextText: 3
-            },{
-                text: "Ya es suficiente por hoy",
+            },
+            {
+                text: "Dejémoslo para más tarde",
                 nextText: 6
             }
         ]
@@ -222,7 +223,7 @@ const textNodes = [
         text: "Es importante recordar que estos ejemplos de roles de género han sido habituales en nuestra sociedad hasta hace algunos años, pero la tendencia hace pensar que estamos en camino de eliminar o al menos modificar sustancialmente algunos de ellos, haciendo que pasen a ser roles independientes del género.",
         options: [
             {
-                text: "Tradicionalmente, en nuestra sociedad se ha tendido que" + <b>"la tarea de cuidar de lxs hijxs dentro del matrimonio"</b> + ", fuera asumida por la mujer. Del hombre lo que se esperaba es que trabajase y ganase un salario con el que sustentar a la familia. La mujer no solo debía cuidar de los hijos, sino también" +  <b>"encargarse de las tareas del hogar."</b>,
+                text: "Tradicionalmente, en nuestra sociedad se ha tendido que la tarea de cuidar de lxs hijxs dentro del matrimonio, fuera asumida por la mujer. Del hombre lo que se esperaba es que trabajase y ganase un salario con el que sustentar a la familia. La mujer no solo debía cuidar de los hijos, sino también encargarse de las tareas del hogar.",
                 nextText: 11
             },
             {
