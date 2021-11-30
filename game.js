@@ -78,7 +78,7 @@ const textNodes = [
         text: "Ya definido éste término, quisiera saber qué es lo que te interesa saber primero.",
         options: [
             {
-                text: "¿Qué son los 'roles de género'?(unredacted)",
+                text: "¿Qué son los 'roles de género'?",
                 nextText: 7
             },
             {
@@ -165,15 +165,15 @@ const textNodes = [
     },
     {
         id: 7,
-        text: "",
+        text: "Los roles de género son normas no escritas en las que históricamente se han establecido una serie de comportamientos como propios o adecuados para un determinado género, mientras que era menos probable observarlos en el contrario. La base de los roles de género, por lo tanto, es la creencia de que, en función de si una persona es de género masculino o género femenino, tendrá unos determinados comportamientos.",
         options: [
             {
-                text: "",
-                nextText: 10
+                text: "Me gustaría conocer ejemplos",
+                nextText: 12
             },
             {
-                text: "",
-                nextText:10
+                text: "Suena interesante pero ¿Podemos dejarlo para otra ocasión?",
+                nextText: 6
             }
             
         ]
@@ -184,38 +184,62 @@ const textNodes = [
         text: "Ahora que ya sabés qué es el consentimiento ¿Qué te gustaría saber?",
         options: [
             {
-                text: "¿Qué son los 'roles de género'?(unredacted)",
+                text: "¿Qué son los 'roles de género'?",
                 nextText: 7
             },
             {
                 text: "¿Qué me está pasando?(unredacted)",
                 nextText: 8
+            },
+            {   
+                text: "Ya es suficiente por hoy",
+                nextText: 6
             }
         ]
 
     },
     {
         id: 11,
-        text: "",
+        text: "Ahora que ya sabés qué son los roles de género y algunos ejemplos ¿Qué te gustaría saber?",
         options: [
             {
-                text: "",
-                nextText: 12
+                text: "¿Qué me está pasando?(unredacted)",
+                nextText: 8
             },
             {
-                text: "",
-                nextText: 21
+                text: "¿Qué es el 'consentimiento'?",
+                nextText: 9
+            },
+            {   
+                text: "Ya es suficiente por hoy",
+                nextText: 6
             }
         ]
 
     },
     {
         id: 12,
-        text: "",
+        text: "Es importante recordar que estos ejemplos de roles de género han sido habituales en nuestra sociedad hasta hace algunos años, pero la tendencia hace pensar que estamos en camino de eliminar o al menos modificar sustancialmente algunos de ellos, haciendo que pasen a ser roles independientes del género.",
         options: [
             {
-                text: "",
-                nextText: 16
+                text: "Tradicionalmente, en nuestra sociedad se ha tendido que" + <b>"la tarea de cuidar de lxs hijxs dentro del matrimonio"</b> + ", fuera asumida por la mujer. Del hombre lo que se esperaba es que trabajase y ganase un salario con el que sustentar a la familia. La mujer no solo debía cuidar de los hijos, sino también" +  <b>"encargarse de las tareas del hogar."</b>,
+                nextText: 11
+            },
+            {
+                text: "Los estilos de crianza tradicionales han incidido mucho en enseñar a los niños que no deben llorar, que son fuertes y que ese comportamiento no les corresponde; muchas personas consideran correcto que las mujeres expresen sus emociones abiertamente, haciendo saber a los demás cómo se sienten e incluso llorando si lo necesitan.",
+                nextText: 11
+            },
+            {
+                text: " Históricamente se ha promovido la idea de que el hombre tenía ciertas tendencias al liderazgo y a la dominancia, mientras que las mujeres, por el contrario, eran más empáticas y más conciliadoras. Se entendía que era más fácil que los hombres alcanzasen ciertos puestos de responsabilidad, pues su carácter llevaba implícito una serie de características apropiadas para ejercer esas tareas. Por el contrario, de las mujeres se esperaba que se mantuvieran en puestos subordinados.",
+                nextText: 11
+            },
+            {
+                text: "La distinción establecida entre los tipos de estudios apropiados para un hombre y para una mujer, afirmando que los hombres tienen una mayor propensión para matricularse en carreras de ciencias exactas e ingenierías, mientras que las mujeres prefieren las humanidades, las ciencias sociales y las disciplinas de cuidado a los demás (medicina, enfermería o psicología)",
+                nextText: 11
+            },
+            {
+                text: "El aspecto físico es otro de los ejemplos de roles de género que la sociedad ha desarollado. Históricamente, muchas personas esperan de la mujer, por el hecho de ser mujer, que mantenga un aspecto físico impecable, recurriendo para ello a elementos como el maquillaje, determinadas prendas de vestir, cosméticos, depilación, peluquería, etc.",
+                nextText: 11
             }
         ]
 
