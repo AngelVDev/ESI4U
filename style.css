@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     color: #480ca8;
-    opacity: 90%;
+    opacity: 60%;
 }
 
 *, *::before, *::after{
@@ -35,6 +35,7 @@ body{
     height: 100vh;
     background-color: #480ca8;
 }
+
 .container {
     width: 800px;
     max-width: 80%;
